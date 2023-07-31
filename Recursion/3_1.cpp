@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -63,7 +64,7 @@ double sumOfPowersRecursive(double x, int n)
     }
     else
     {
-        return x * x * n + sumOfPowersRecursive(x, n - 1);
+        return pow(x, 2 * n) + sumOfPowersRecursive(x, n - 1);
     }
 }
 
@@ -82,7 +83,7 @@ int fibonacci(int n)
 int main() 
 {
     int choice, n;
-    double x;
+    double x, result;
 
     do {
         cout << "===== ASSIGNMENT 1 MENU =====" << endl;
