@@ -85,7 +85,7 @@ int main()
     double x;
 
     do {
-        cout << "===== Menu =====" << endl;
+        cout << "===== ASSIGNMENT 1 MENU =====" << endl;
         cout << "1. Sum of integers (Bai a)" << endl;
         cout << "2. Sum of fractions (Bai b)" << endl;
         cout << "3. Factorial (Bai c)" << endl;
