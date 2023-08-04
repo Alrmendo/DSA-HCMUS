@@ -280,7 +280,7 @@ void Remove(Node *&root, string x)
         else
         {
             Node *minRight = root->right;
-            while (minRight->left == NULL)
+            while (minRight->left != NULL)
             {
                 minRight = minRight->left;
             }
